@@ -1,5 +1,5 @@
 {
-  "name": "melasty-new",
+  "name": "eprovet-new",
   "version": "1.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "npm run prerender:routes && ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:melasty-new": "node dist/melasty-new/server/server.mjs",
+    "serve:ssr:eprovet-new": "node dist/eprovet-new/server/server.mjs",
     "prerender:routes": "node scripts/prerender-routes.js"
   },
   "private": true,
