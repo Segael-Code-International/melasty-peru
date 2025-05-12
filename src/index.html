@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es-PE">
+<head>
+  <meta charset="utf-8">
+  <title>Melasty - Perú</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.svg">
+</head>
+
+<script>
+  try {
+    const darkMode = localStorage.getItem('isDarkTheme');
+    if (darkMode === 'true' || (darkMode === null && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('my-app-dark');
+    } else {
+      document.documentElement.classList.remove('my-app-dark');
+    }
+  } catch (e) {
+    document.documentElement.classList.add('my-app-dark');
+  }
+</script>
+
+<body>
+  <app-root></app-root>
+</body>
+</html>

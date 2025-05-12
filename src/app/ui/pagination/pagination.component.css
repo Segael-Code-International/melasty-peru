@@ -1,0 +1,28 @@
+:host {
+    display: block;
+    margin: 1rem 0;
+  }
+  .page-link {
+    color: #6c757d;
+    min-width: 36px;
+    height: 36px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .page-link:hover {
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+    color: var(--bs-primary);
+  }
+  .page-link.active {
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+    color: white;
+  }
+  .disabled .page-link {
+    color: #6c757d;
+    pointer-events: none;
+    background-color: #fff;
+  }

@@ -1,0 +1,9 @@
+<div class="imagen-container" [style.paddingTop]="paddingTop">
+    @if (!imagenCargada) {
+        <div class="skeleton"></div>
+    }
+    <img [src]="src" [alt]="alt" class="img-fluid rounded" [ngStyle]="{
+        display: imagenCargada ? 'block' : 'none',
+        objectFit: objectFit
+      }" (load)="onImagenCargada()">
+</div>

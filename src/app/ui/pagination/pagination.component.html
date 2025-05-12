@@ -1,0 +1,11 @@
+@if (totalPages > 0) {
+    <p-paginator 
+      [first]="first"
+      [rows]="getRows()"
+      [totalRecords]="totalRecords"
+      [showCurrentPageReport]="false"
+      [showPageLinks]="true"
+      styleClass="justify-content-center"
+      (onPageChange)="onPageChangeEvent($event)">
+    </p-paginator>
+}
