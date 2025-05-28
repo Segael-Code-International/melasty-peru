@@ -8,7 +8,7 @@ import { ProductService } from '../../services/product.service';
 import { environment } from '../../../environments/environment';
 import { CategoriaFilterService } from '../../services/categoria-filter.service';
 import { Subscription, fromEvent, filter, interval, takeWhile } from 'rxjs';
-import { isPlatformBrowser } from '@angular/common';
+import { isPlatformBrowser, SlicePipe } from '@angular/common';
 import { PLATFORM_ID } from '@angular/core';
 import { Carousel } from 'primeng/carousel';
 import { Producto } from '../../interfaces';
@@ -19,7 +19,8 @@ import { Producto } from '../../interfaces';
     ButtonModule,
     RouterLink,
     Chip,
-    Carousel
+    Carousel,
+    SlicePipe
   ],
   providers: [ProductService],
   templateUrl: './home.component.html',

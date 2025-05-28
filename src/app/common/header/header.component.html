@@ -1,9 +1,9 @@
 <style>
     .fixed-header {
         position: fixed;
-        top: 5px;
-        left: 10px;
-        right: 10px;
+        top: 0px;
+        left: 0px;
+        right: 0px;
     }
 
     .fixed-header .p-menubar {
@@ -18,14 +18,14 @@
         .fixed-header {
             top: auto;
             /* Elimina la posición superior */
-            bottom: 5px;
+            bottom: 0px;
             /* Coloca el header a 5px del fondo */
         }
     }
 </style>
 
 <div class="fixed z-50 fixed-header" appHideHeader>
-    <p-card styleClass="m-0 [&_.p-card-body]:!p-2 bg-surface backdrop-blur-md">
+    <p-card styleClass="m-0 [&_.p-card-body]:!p-2 bg-surface backdrop-blur-md rounded-none">
         <div class="flex items-center justify-between w-full">
             <!-- Logo -->
             <div class="flex-none ms-3">
