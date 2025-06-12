@@ -58,7 +58,7 @@ export default class HomeComponent implements OnInit, OnDestroy {
     // Configura las meta etiquetas para SEO
     this.meta.addTags([
       { name: 'description', content: 'MELASTY ofrece tecnología de vanguardia para optimizar operaciones agrícolas y ganaderas: picadoras, sistemas de ordeño y productos veterinarios de alta calidad.' },
-      { name: 'keywords', content: 'tecnología agrícola, equipos ganaderos, picadoras, sistemas de ordeño, productos veterinarios, innovación agropecuaria, maquinaria agrícola' },
+      { name: 'keywords', content: 'tecnología agrícola, equipos ganaderos, picadoras, sistemas de ordeño, productos veterinarios, innovación agropecuaria, maquinaria agrícola, ordeñadora' },
       { name: 'robots', content: 'index, follow' },
       { name: 'author', content: 'MELASTY' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },

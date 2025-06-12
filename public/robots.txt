@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# Permitir acceso a recursos estáticos
+Allow: /assets/
+Allow: /*.css
+Allow: /*.js
+Allow: /*.svg
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.webp
+
+# Sitemap
+Sitemap: https://melastyperu.com/sitemap.xml
+
+# Crawl delay (opcional, para ser amigable con los crawlers)
+Crawl-delay: 1
